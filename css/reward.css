@@ -1,0 +1,20 @@
+.score-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 1.875rem;
+}
+
+.userNameResult, .finalScore {
+  color: #269231;
+  font-weight: bolder;
+}
+
+.finalImageHide{
+  display: none;
+}
+
+.finalImageShow{
+  width: 25em;
+  height: 25em;
+  transform: translate(50%, -10%);
+}

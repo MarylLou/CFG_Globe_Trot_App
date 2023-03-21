@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe Trot</title>
+    <link href="../css/game.css" rel="stylesheet" />
+    <link href="../css/app.css" rel="stylesheet" />
+    <link href="../css/mediaQueries.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content-container">
+        <div class="logo">
+          <img
+            src="../img/icon-removebg.png"
+            alt="Globe Trot Logo"
+            width="100%"
+          />
+        </div>
+        <div class="game-content">
+          <div id="game">
+            <div id="gameInfosBar">
+              <div id="gameInfosBar-item">
+                <p class="gameInfosBar-prefix">Question</p>
+                <h3 class="gameInfosBar-main-text" id="questionCounter"></h3>
+              </div>
+              <div id="gameInfosBar-item">
+                <p class="gameInfosBar-prefix">Score</p>
+                <h3 class="gameInfosBar-text" id="score">0</h3>
+              </div>
+            </div>
+            <h4 id="question">What is the answer to this questions?</h4>
+            <div class="choice-container">
+              <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/game.js"></script>
+  </body>
+</html>
